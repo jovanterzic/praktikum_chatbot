@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/_style.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/3.9.0/less.min.js" ></script>
+<!--    Including Bootstrap    -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<!--    <script src="https://cdnhref="#">.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>-->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<!--    Font Awesome-->
+    <script src="https://kit.fontawesome.com/d1883976f1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="page-wrapper container">
+    <div class="top-header">
+        <div class="top-header-content">
+            <div class="welcome-message">
+                Dobrodošli u <b>Hotel & SPA</b>
+            </div>
+            <div class="customer-information">
+                <div class="login-links">
+                    <a href="#" class="login-links-text">Prijava</a>&nbsp;&nbsp;&nbsp;
+                    <a href="#" class="login-links-text">Registracija</a>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#"><img class="profile-picture" width="80" height="40" src="../img/logo.jpg"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="#">Accommodation</a>
+                <a class="nav-item nav-link" href="#">About us</a>
+                <a class="nav-item nav-link" href="#">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container three-services">
+        <div class="row">
+            <div class="col-lg-4 services services-first">
+                <i class="fas fa-wifi"></i>
+                <div class="text-area">Free Wi-Fi for our guests</div>
+            </div>
+            <div class="col-lg-4 services">
+                <i class="fas fa-car"></i>
+                <div class="text-area">Free transportation for our guests</div>
+            </div>
+            <div class="col-lg-4 services">
+                <i class="fas fa-shield-alt"></i>
+                <div class="text-area">24/7 security of our guests</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="carousel-container">
+            <i class="fas fa-chevron-circle-left slider-arrow-prev" id="prevBtn"></i>
+            <i class="fas fa-chevron-circle-right slider-arrow-next" id="nextBtn"></i>
+        <div class="carousel-slide">
+            <img name="slide" src="../img/unutrasnjost2.jpg" id="lastClone" alt="">
+            <img name="slide" src="../img/restoran.jpg" alt="">
+            <img name="slide" src="../img/soba1.jpg" alt="">
+            <img name="slide" src="../img/unutrasnost1.jpg" alt="">
+            <img name="slide" src="../img/spa.jpg" id="firstClone" alt="">
+        </div>
+    </div>
+    <h2 class="usluge-naslov">NAŠE USLUGE</h2>
+    <div class="container opis-usluga">
+        <div class="row">
+            <div class="col-md-5">
+                <div class="imgAbt">
+                    <img  class="img-tretmani" width="400" src="../img/image_bazen.jpg">
+                </div>
+            </div>
+            <div class="col-md-7">
+                <p class="opis-usluga-text">Otklonite umor, nadoknadite izgubljenu energiju i doživite najbolje što wellness može da ponudi. Na raspolaganju su vam zatvoreni bazen sa relax zonom, kao i svet sauna koji obuhvata finsku i infrared saunu, parno kupatilo, rusku banju, ledeno-slanu pećinu, tropske kiše i ledena brzopotezna vedra. Za potpuni užitak, opustite se u bazenu sa džakuzijem na otvorenom, u kojem temperatura vode ne pada ispod 28 stepeni, a pogled na Pančićev vrh garantuje poseban doživljaj, podjednako u sred zime ili leta.</p>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-7">
+                <p class="opis-usluga-text">Obradujte sebe nekim od luksuznih tremana tela i lica. U ponudi su anti-age tretmani, hidradvance, detox tretmani, egzotični rituali, spa ceremonije i specijalni spa villa tretmani. Za vas smo kreirali Spa Vila sobu sa posebnim sadržajima – džakuzi, privatna sauna, prostor za tretmane.</p>
+            </div>
+            <div class="col-md-5">
+                <div class="imgAbt">
+                    <img class="img-tretmani"  width="400" src="../img/image_tretman.jpg">
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-5">
+                <div class="imgAbt">
+                    <img class="img-tretmani" width="400" src="../img/image_masaze.jpg">
+                </div>
+            </div>
+            <div class="col-md-7">
+                <p class="opis-usluga-text">U Grand Oaza Spa & Wellness centru očekuje vas veliki izbor masaža, od tradicionalnih do egzotičnih, sa različitih meridijana sveta. Izaberite masažu prema sopstvenom senzibilitetu i prepustite se vrhunskim terapeutima koji će vam prirediti nezaboravan ugođaj.</p>
+            </div>
+        </div>
+    </div>
+<!--</div>-->
+
+<!--    Footer Area--><br><br><br>
+    <footer class="page-footer font-small blue pt-4">
+        <div class="container text-center text-md-left footer-area">
+            <div class="row">
+                <div class="col-md-5 mt-md-0 mt-3">
+                    <img src="../img/logo.jpg"</a>
+                    <p>
+                        Posetite nas što pre i uverite se u kvalitet!</p>
+                </div>
+                <hr class="clearfix w-100 d-md-none pb-3">
+                <div class="col-md-4 mb-md-0 mb-3">
+<!--                    <h5 class="text-uppercase">Links</h5>-->
+                    <ul class="list-unstyled">
+                        <li>
+                            <a class="footer-link" href="#">Početna</a>
+                        </li>
+                        <li>
+                            <a class="footer-link" href="#">Smeštaj</a>
+                        </li>
+                        <li>
+                            <a class="footer-link" href="#">Naše usluge i poklon paketi</a>
+                        </li>
+                        <li>
+                            <a class="footer-link" href="#">O nama</a>
+                        </li>
+                        <li>
+                            <a class="footer-link" href="contact.html">Kontaktirajte nas</a>
+                        </li>
+                        <li>
+                            <a class="footer-link" href="#">Politika privatnosti</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-3 mb-md-0 mb-3">
+                    <h5 class="text-uppercase">Kontakt informacije</h5>
+                    <ul class="list-unstyled">
+                        <li class="contact-information">
+                            <p class="address">Address:</p>
+                            <address>Somborski Bulevar 2, Novi Sad, Srbija</address>
+                        </li>
+                        <li class="contact-information">
+                        <p class="address">Phone:</p>
+                            <address>+123 456789</address>
+                        </li>
+                        <li class="contact-information">
+                        <p class="address">Fax:</p>
+                            <address>+123 456789</address>
+                        </li>
+                        <li class="contact-information">
+                        <p class="address">Email:</p>
+                            <address>hotel_spa@gmail.com</address>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright text-center py-3">© 2021 Copyright:
+            <a href="https://mdbootstrap.com/education/bootstrap/">jovanterzic.com</a>
+        </div>
+    </footer>
+</div>
+</body>
+</html>
+
+
+<script src="../script/script.js"></script>
+<script type="text/javascript"> let headID = document.getElementsByTagName("head")[0]; let newCss = document.createElement('link'); newCss.rel = 'stylesheet'; newCss.type = 'text/css'; newCss.href = "https://botmake.io/embed/bot514635.css"; let newScript = document.createElement('script'); newScript.src = "https://botmake.io/embed/bot514635.js"; newScript.type = 'text/javascript'; headID.appendChild(newScript); headID.appendChild(newCss); </script>
